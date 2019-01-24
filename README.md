@@ -24,5 +24,5 @@ This repositary is for showing my work and it was useful in web apps and also co
 
 Hello, i'm gopi krishna sabbineni, pursuning masters in Northwest Missouri university in Applied computer science.
 
-!(https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
+![farming](https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
 
