@@ -16,8 +16,12 @@ This repositary is for showing my work and it was useful in web apps and also co
 ## Recommended Resources
 [To create a tortoiseGit](https://tortoisegit.org/docs/tortoisegit/tgit-dug.html):This link was useful for creating TortoiseGit and useful in web apps.
 
-[progresssive web apps by Dean Alan Hume](https://www.manning.com/books/progressive-web-apps)  :tThis book uses to teachs us about PWA design and the skills you need to build fast, reliable websites by taking you step-by-step through real world examples.
+[progresssive web apps by Dean Alan Hume](https://www.manning.com/books/progressive-web-apps):tThis book uses to teachs us about PWA design and the skills you need to build fast, reliable websites by taking you step-by-step through real world examples.
 
 [web app manifest](https://developer.mozilla.org/en-US/docs/web/Manifest):Guide for web app manifest format
 
 ## Contributers
+
+Hello, i'm gopi krishna sabbineni, pursuning masters in Northwest Missouri university in Applied computer science.
+
+
