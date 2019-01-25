@@ -1,6 +1,6 @@
 ## aboutme
 
-## Repositary Links
+## Repository Links
 [web page](https://github.com/sabbinenibalagopikrishna/aboutme/edit/master/README.md)
 
 [sourcepage](https://github.com/sabbinenibalagopikrishna/aboutme/blob/master/README.md)
