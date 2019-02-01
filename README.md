@@ -3,7 +3,7 @@
 ## Repository Links
 [web page](https://sabbinenibalagopikrishna.github.io/aboutme/)
 
-[sourcepage](https://github.com/sabbinenibalagopikrishna/aboutme/blob/master/README.md)
+[sourcepage](https://github.com/sabbinenibalagopikrishna/aboutme)
 
 ## about
 This repositary is for showing my work and it was useful in web apps and also contains links which are useful in future purpose.
