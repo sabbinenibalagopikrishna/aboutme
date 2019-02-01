@@ -1,7 +1,7 @@
 ## Aboutme
 
 ## Repository Links
-[web page](https://github.com/sabbinenibalagopikrishna/aboutme)
+[web page](https://sabbinenibalagopikrishna.github.io/aboutme/)
 
 [sourcepage](https://github.com/sabbinenibalagopikrishna/aboutme/blob/master/README.md)
 
