@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <link rel="stylesheet" href="gopi.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body background="gopi1.jpg">
@@ -95,6 +98,16 @@
                         <input type="submit" value="Submit">
                 </form>
     </main>
+    <div id="flip" style="color:blueviolet">get cursor here!</div>
+            <div id="panel" style="color:yellow">you are awesome :)</div>
+            <script>
+            $(document).ready(function(){
+                $("#flip").mouseover(function(){
+                    $("#panel").slideToggle("slow");
+
+                });
+            });
+            </script>
 
     <footer>
         <b>
