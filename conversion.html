@@ -28,10 +28,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
 
-  
+
   <script src="./qunit.html"></script>
 
-  <script src="./p3.js"></script>
+  <!--   <script src="./p3.js"></script>
+ -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
@@ -55,8 +56,8 @@
           <a class="nav-link active" href="contact.html">Contact-Info</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="test.html">qunit test</a>
-          </li>
+          <a class="nav-link active" href="test.html">qunit test</a>
+        </li>
         <!-- <li class="nav-item">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
@@ -71,7 +72,7 @@
         <li class="nav-item">
           <a class="nav-link active" href="conversion.html">Conversion</a>
         </li>
-   
+
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -104,7 +105,23 @@
   <script>
     console.log('SCRIPT START')
     console.log('Declare testable functions......................')
+    let ct=0;
+    function temp() {
 
+
+      console.log('  Starting clicker click handler')
+/*       const origCount = parseInt(localStorage.getItem('countOfClicks')) || 0
+ */      const i = parseInt(document.getElementById('inputKgs').value)*1000
+      console.log('i=' + i)
+      ct=ct+1;
+      const ans =  'your conversion is ' + weightConverter(i) + '. This has been run ' + ct + ' times.'
+      document.getElementById('result').innerHTML = ans
+      localStorage.setItem('countOfClicks', ct)  // define a string key to store + its value
+
+      localStorage.setItem('inputKgs', i)
+
+      console.log('  Finished clicker click handler')
+    }
 
     function loadDoc() {
       var xhttp = new XMLHttpRequest();
@@ -130,22 +147,8 @@
         }
         console.log('  Finished initialization')
       })
-      document.getElementById('clicker').addEventListener('click', () => {
-        console.log('  Starting clicker click handler')
-        const origCount = parseInt(localStorage.getItem('countOfClicks')) || 0
 
-        const i = parseInt(document.getElementById('inputKgs').value)
-        console.log('i=' + i)
 
-        const ct = origCount + 1
-        const ans = s + ', your conversion is ' + weightConverter(i) + '. This has been run ' + ct + ' times.'
-        document.getElementById('result').innerHTML = ans
-        localStorage.setItem('countOfClicks', ct)  // define a string key to store + its value
-
-        localStorage.setItem('inputKgs', i)
-
-        console.log('  Finished clicker click handler')
-      })
       document.getElementById('wiper').addEventListener('click', () => {
         console.log('  Starting wiper click handler')
         localStorage.removeItem('countOfClicks')
@@ -160,7 +163,9 @@
       console.log('SCRIPT END')
     }
   </script>
-
+  <p id="result"></p>
+  <button id="clicker" onclick="temp()">localStorage</button>
+<button id="wiper">WIPE</button>
   <footer>
     <b>
       &copy; 2019 Bala Gopi Krishna Sabbineni
