@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8" />
+  <!-- <meta charset="UTF-8" />
     <meta name="author" content="Bala Gopi Krishna Sabbineni"> -->
-    <!-- <ul>
+  <!-- <ul>
                 <li class="nav-item active">
                         <a class="nav-link" href="./index.html">Home
                             <span class="sr-only"></span></a>
@@ -14,20 +14,21 @@
                         </li>
         </ul> -->
 
-    <title>
-       Gopi  Krishna              
-    </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>
+    Gopi Krishna
+  </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
-    <link rel="stylesheet" href="gopi.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <link rel="stylesheet" href="gopi.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
 
-  <script src="scripts/case.js"></script>
+  
   <script src="./qunit.html"></script>
 
   <script src="./p3.js"></script>
@@ -38,21 +39,25 @@
 <body background="gopi1.jpg">
 
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Gopi Krishna</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="contact.html">Contact-Info</a>
-                    </li>
-                    <!-- <li class="nav-item">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Gopi Krishna</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact-Info</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="test.html">qunit test</a>
+          </li>
+        <!-- <li class="nav-item">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                       </a> 
@@ -63,57 +68,105 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                       </div>
                     </li> -->
-                    <li class="nav-item">
-                      <a class="nav-link active" href="conversion.html">Conversion</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-<header>
+        <li class="nav-item">
+          <a class="nav-link active" href="conversion.html">Conversion</a>
+        </li>
+   
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <header>
     <h1>
       Weight Conversion
     </h1>
-    </header>
-    <p id="color"> conversion of kgs to grams</p>
-    <p>
-            
-            <input id="inputKgs" type="number" placeholder="KGS"
-            oninput="gramConverter(this.value)"
-            onchange="gramconverter(this.value)">
-          </p>
-          <p id="color">Grams <span id="outputGrams"></span></p>
-          <script>
-          function gramConverter(valNum) {
-            valNum = parseFloat(valNum);
-            document.getElementById("outputGrams").innerHTML = valNum*1000;
-          }     
-          </script>   
-          <div id="demo">
-            <h2>The XMLHttpRequest Object</h2>
-            <button type="button" onclick="loadDoc()">Change Content</button>
-            </div>
-        <script>
-            function loadDoc() {
-                var xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function () {
-                    if (this.readyState == 4 && this.status == 200) {
-                        document.getElementById("demo").innerHTML =
-                            this.responseText;
-                    }
-                };
-                xhttp.open("GET", "gopi.txt", true);
-                xhttp.send();
-            }
-    </script>  
-          <footer>
-                <b>
-                        &copy; 2019 Bala Gopi Krishna Sabbineni
-                    </b>
-            
-          </footer>
-          </body>
-          </html>
+  </header>
+  <p id="color"> conversion of kgs to grams</p>
+  <p>
+
+    <input id="inputKgs" type="number" placeholder="KGS" oninput="gramConverter(this.value)" onchange="gramconverter(this.value)">
+  </p>
+  <p id="color">Grams <span id="outputGrams"></span></p>
+  <script>
+    function gramConverter(valNum) {
+      valNum = parseFloat(valNum);
+      document.getElementById("outputGrams").innerHTML = valNum * 1000;
+    }
+
+  </script>
+  <div id="demo">
+    <h2>The XMLHttpRequest Object</h2>
+    <button type="button" onclick="loadDoc()">Change Content</button>
+  </div>
+  <script>
+    console.log('SCRIPT START')
+    console.log('Declare testable functions......................')
+
+
+    function loadDoc() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("demo").innerHTML =
+            this.responseText;
+        }
+      };
+      xhttp.open("GET", "gopi.txt", true);
+      xhttp.send();
+    }
+    function weightConverter(valNum) {
+      const Y = valNum * 1000
+      document.getElementById("outputGrams").innerHTML = Y
+      console.log('Declare event listeners .......................')
+      window.addEventListener('load', (event) => {
+        console.log('  Starting initialization ')
+
+        if (localStorage.getItem('number1')) {
+          document.getElementById('inputKgs').value = parseInt(localStorage.number1)
+          console.log(`  Stored num1 = ${localStorage.number1}`)
+        }
+        console.log('  Finished initialization')
+      })
+      document.getElementById('clicker').addEventListener('click', () => {
+        console.log('  Starting clicker click handler')
+        const origCount = parseInt(localStorage.getItem('countOfClicks')) || 0
+
+        const i = parseInt(document.getElementById('inputKgs').value)
+        console.log('i=' + i)
+
+        const ct = origCount + 1
+        const ans = s + ', your conversion is ' + weightConverter(i) + '. This has been run ' + ct + ' times.'
+        document.getElementById('result').innerHTML = ans
+        localStorage.setItem('countOfClicks', ct)  // define a string key to store + its value
+
+        localStorage.setItem('inputKgs', i)
+
+        console.log('  Finished clicker click handler')
+      })
+      document.getElementById('wiper').addEventListener('click', () => {
+        console.log('  Starting wiper click handler')
+        localStorage.removeItem('countOfClicks')
+        localStorage.removeItem('guest')
+        localStorage.removeItem('number1')
+        localStorage.removeItem('number2')
+        console.log('  Finished wiper click handler - localStorage entries removed')
+      })
+
+
+
+      console.log('SCRIPT END')
+    }
+  </script>
+
+  <footer>
+    <b>
+      &copy; 2019 Bala Gopi Krishna Sabbineni
+    </b>
+
+  </footer>
+</body>
+
+</html>
